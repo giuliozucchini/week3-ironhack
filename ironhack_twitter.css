@@ -1,0 +1,58 @@
+.profilep {
+	margin-top: -210px;
+	margin-left: 40px;
+	position: absolute;
+	z-index: 0;
+}
+
+.top_feed {
+border: 1px;
+border-color: #C0C0C0;
+border-style: solid;
+height: 50px;
+border-radius: 5px 5px 0 0;
+}
+
+
+.minip {
+margin-top: 18%;
+margin-left: 5%;
+height: 100px;
+width: 100px;
+}
+
+.post {
+border: 1px;
+border-color: #C0C0C0;
+border-style: solid;
+height: 150px;
+border-top: 0px;
+}
+
+.post_text {
+margin-top: 7%;
+}
+
+.glyphicon {
+font-size: 10px;
+} 
+
+.bottoni {
+padding-left: 40%;
+}
+
+.media {
+border: 1px;
+border-color: #C0C0C0;
+border-style: solid;
+}
+
+.wrapper {
+padding: 15px;
+padding-top: 14px;
+}
+
+
+.media-body {
+padding-left: 10px;
+}
