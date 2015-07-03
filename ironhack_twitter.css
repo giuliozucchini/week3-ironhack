@@ -1,5 +1,10 @@
+
+.container {
+	width:20px;
+}
+
 .profilep {
-	margin-top: -210px;
+	margin-top: -180px;
 	margin-left: 40px;
 	position: absolute;
 	z-index: 0;
@@ -11,8 +16,24 @@ border-color: #C0C0C0;
 border-style: solid;
 height: 50px;
 border-radius: 5px 5px 0 0;
+background-color: white;
+text-align: center;
+
 }
 
+.tweet-title{
+	font-weight: bold;
+}
+
+.tweet-account{
+ 	color: #8899a6;
+ 	font-weight: normal;
+ 	font-size: 13px;
+}
+
+.profile {
+	padding-top: 50px;
+}
 
 .minip {
 margin-top: 18%;
@@ -21,12 +42,17 @@ height: 100px;
 width: 100px;
 }
 
+.feedissimo {
+	padding-top: 20px;
+
+}
 .post {
 border: 1px;
 border-color: #C0C0C0;
 border-style: solid;
 height: 150px;
 border-top: 0px;
+background-color: white;
 }
 
 .post_text {
@@ -35,10 +61,22 @@ margin-top: 7%;
 
 .glyphicon {
 font-size: 10px;
-} 
+}
 
-.bottoni {
-padding-left: 40%;
+.b-custom {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.second_nav {
+	border: 1px;
+    border-color: #C0C0C0;
+    border-style: solid;
+    height: 50px;
+    border-right: 0px;
+  	border-left: 0px;
+  	font-weight: bold;
 }
 
 .media {
@@ -49,10 +87,127 @@ border-style: solid;
 
 .wrapper {
 padding: 15px;
-padding-top: 14px;
+background-color: white
+
+}
+
+.wrap_glyphicon{
+	padding-left: 20px;
 }
 
 
+.sugg {
+	 border: none;
+}
+
+.whoto {
+	color: #66757f;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	 line-height: 1;
+	 font-weight: lighter;
+	 font-weight: 300;
+	 font-size: 18px;
+	 float: left;
+}
+
+.whoto2 {
+	font-size: 11px;
+	text-align: center;
+	padding-left: 10px;
+}
+
+.hash-title {
+	color: #66757f;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	 line-height: 1;
+	 font-weight: lighter;
+	 font-weight: 300;
+	 font-size: 20px;
+}
+
+
+.hash-details {
+	font-size: 11px;
+	text-align: center;
+	padding-left: 10px;	
+	  text-align: center;
+}
+
+
+.hash {
+  color: #009999;
+  font-size: 13px;
+  line-height: 13px;
+  text-align: center;
+}
+
+.top-m {
+	padding-top: 0px;
+}
+
+.bobox {
+	border-radius: 5px ;
+}
+
 .media-body {
-padding-left: 10px;
+	padding-left: 10px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.blue {
+	padding-left: 10px;
+	color: #55acee;
+	text-align: left;
+	width: 75px;
+}
+
+.follow {
+	float: right;
+	padding-left: 12px;
+	color: black;
+	font-weight: bold;
+}
+
+.prof {
+	border-radius: 5px ;
+}
+
+
+.headi {
+	border: none;
+	display: inline-block;
+	width:100%;
+}
+
+.background {
+	background-color: #F5F8FA;
+}
+
+.glyphicon-map-marker {
+	font-size: 17px;
+		color: #8899a6;
+}
+
+.glyphicon-link {
+	font-size: 17px;
+		color: #8899a6;
+}
+
+.glyphicon-time {
+	font-size: 17px;
+	color: #8899a6;
+
+}
+
+.ironhack-big{
+	font-size: 25px;
+	font-weight: bold;
+	color: #8899a6;
+}
+
+.ironhack-little{
+	color: #009999;
+ 	font-weight: normal;
+ 	font-size: 16px;
+	
 }
